@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.dj.ssm.mapper.user.UserMapper">
+
+    <!--  <select id="page2" resultType="com.dj.ssm.pojo.UserVO">
+          SELECT
+          u.id,
+          u.username,
+          ui.nick_name
+          FROM
+          mp_user u
+          LEFT JOIN mp_user_info ui ON u.id = ui.user_id
+          where
+          u.sex = #{query.sex}
+      </select>-->
+
+</mapper>
