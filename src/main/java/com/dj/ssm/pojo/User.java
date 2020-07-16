@@ -11,6 +11,7 @@ import lombok.Data;
  */
 @Data
 @TableName("user") // 实体类对应数据库表名
+//dddd
 public class User {
 
     @TableId(type = IdType.AUTO)// 主键策略
