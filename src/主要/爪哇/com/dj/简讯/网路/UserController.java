@@ -15,12 +15,14 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/users/")
 @RestController
 public class UserController {
-//奇怪了
-//文件丢了
-//克隆文件
     @Autowired
     private UserService userService;
 
+    /**
+     * 来了
+     * @param id
+     * @return
+     */
     @GetMapping("/{id}")
     public ResultModel get(@PathVariable Integer id) {
         try {
